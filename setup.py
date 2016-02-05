@@ -2,6 +2,7 @@
 
 from __future__ import with_statement
 from distutils.core import setup
+import os
 
 
 def get_version(filename):
@@ -13,7 +14,7 @@ def get_version(filename):
 
 setup(
     name='colorise',
-    version=get_version('colorise/__init__.py'),
+    version=get_version(os.path.join('colorise', '__init__.py')),
     author='Alexander Bock',
     author_email='alexander.asp.bock@gmail.com',
     platforms="Platform independent",
