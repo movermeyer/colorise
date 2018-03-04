@@ -4,7 +4,7 @@ colorise v0.1.4
 .. image:: https://travis-ci.org/MisanthropicBit/colorise.svg?branch=master
     :target: https://travis-ci.org/MisanthropicBit/colorise
 
-.. image:: https://pypip.in/license/colorise/badge.png
+.. image:: https://img.shields.io/pypi/l/colorise.svg
     :target: https://pypi.python.org/pypi/colorise/
 
 Provides cross-platform text coloring for consoles, useful functions and a nestable color format syntax.
